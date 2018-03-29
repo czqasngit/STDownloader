@@ -1,0 +1,16 @@
+PODS:
+  - STDownloader (0.1.0)
+
+DEPENDENCIES:
+  - STDownloader (from `../`)
+
+EXTERNAL SOURCES:
+  STDownloader:
+    :path: ../
+
+SPEC CHECKSUMS:
+  STDownloader: 07573122dafff0120056e7dac8038b6f43774b78
+
+PODFILE CHECKSUM: 5b0c9af36a1b943d466b0952ea8d02111164b016
+
+COCOAPODS: 1.4.0

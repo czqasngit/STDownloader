@@ -1,0 +1,6 @@
+framework module STDownloader {
+  umbrella header "STDownloader-umbrella.h"
+
+  export *
+  module * { export * }
+}

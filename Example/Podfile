@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'STDownloader_Example' do
+  pod 'STDownloader', :path => '../'
+
+  target 'STDownloader_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

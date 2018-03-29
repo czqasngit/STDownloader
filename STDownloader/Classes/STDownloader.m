@@ -179,6 +179,7 @@
 - (void)setup {
     NSURLSessionConfiguration *sessionConfiguration = [NSURLSessionConfiguration defaultSessionConfiguration] ;
     sessionConfiguration.timeoutIntervalForRequest = 30.0f;
+    sessionConfiguration.URLCache = nil ;
     self.session = [NSURLSession sessionWithConfiguration:sessionConfiguration delegate:self delegateQueue:[[NSOperationQueue alloc] init]] ;
     self.tasks = [[NSMutableArray<STDownloaderTask *> alloc] init] ;
     self.tasksRelationship = [[NSMutableDictionary alloc] init] ;
